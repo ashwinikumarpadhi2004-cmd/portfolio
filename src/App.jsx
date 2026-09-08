@@ -328,7 +328,7 @@ function App() {
                 </li>
               ))}
             </ul>
-            <Button href="/Ashwini Kumar Padhi.pdf" className="nav-cta" download>
+            <Button href={`${import.meta.env.BASE_URL}resume.pdf`} className="nav-cta" download>
               Download Resume
             </Button>
           </div>
@@ -351,9 +351,13 @@ function App() {
 
               <div className="cta-row">
                 <Button href="#projects">View My Work</Button>
-                <Button href="/Ashwini Kumar Padhi.pdf" variant="secondary" download>
-                  Download Resume
-                </Button>
+                <Button
+  href={`${import.meta.env.BASE_URL}resume.pdf`}
+  variant="secondary"
+  download
+>
+  Download Resume
+</Button>
                 <Button href="#contact" variant="ghost">Let&apos;s Connect</Button>
               </div>
 
@@ -609,12 +613,20 @@ function App() {
                 <p>Interested in working together or discussing a project?</p>
 
                 <div className="cta-row">
-                  <Button href="/Ashwini Kumar Padhi.pdf" variant="primary" download>
-                    Download Resume
-                  </Button>
-                  <Button href="/Ashwini Kumar Padhi.pdf" variant="secondary" download>
-                    View Resume
-                  </Button>
+                  <Button
+  href={`${import.meta.env.BASE_URL}resume.pdf`}
+  variant="primary"
+  download
+>
+  Download Resume
+</Button>
+
+<Button
+  href={`${import.meta.env.BASE_URL}resume.pdf`}
+  variant="secondary"
+>
+  View Resume
+</Button>
                 </div>
               </div>
 
