@@ -328,7 +328,7 @@ function App() {
                 </li>
               ))}
             </ul>
-            <Button href="D:\portfolio\public\Ashwini Kumar Padhi.pdf" className="nav-cta" download>
+            <Button href="/Ashwini Kumar Padhi.pdf" className="nav-cta" download>
               Download Resume
             </Button>
           </div>
@@ -351,7 +351,7 @@ function App() {
 
               <div className="cta-row">
                 <Button href="#projects">View My Work</Button>
-                <Button href="D:\portfolio\public\Ashwini Kumar Padhi.pdf" variant="secondary" download>
+                <Button href="/Ashwini Kumar Padhi.pdf" variant="secondary" download>
                   Download Resume
                 </Button>
                 <Button href="#contact" variant="ghost">Let&apos;s Connect</Button>
@@ -609,10 +609,10 @@ function App() {
                 <p>Interested in working together or discussing a project?</p>
 
                 <div className="cta-row">
-                  <Button href="D:\portfolio\public\Ashwini Kumar Padhi.pdf" variant="primary" download>
+                  <Button href="/Ashwini Kumar Padhi.pdf" variant="primary" download>
                     Download Resume
                   </Button>
-                  <Button href="D:\portfolio\public\Ashwini Kumar Padhi.pdf" variant="secondary" download>
+                  <Button href="/Ashwini Kumar Padhi.pdf" variant="secondary" download>
                     View Resume
                   </Button>
                 </div>
