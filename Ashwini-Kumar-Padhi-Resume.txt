@@ -1,0 +1,32 @@
+Ashwini Kumar Padhi
+Flutter Developer
+
+Profile
+- Flutter Developer with 9 months of professional experience
+- Focused on building modern, responsive, and user-friendly mobile applications
+- Interested in clean UI, great UX, maintainable code, and continuous learning
+
+Skills
+- Flutter
+- Dart
+- Firebase
+- REST APIs
+- Git / GitHub
+- State Management
+- Responsive UI
+- UI/UX Implementation
+- Python (Currently Learning)
+- Generative AI (Exploring)
+- LangChain (Exploring)
+
+Experience
+Flutter Developer
+- 9 months of experience
+- Built mobile apps with Flutter
+- Integrated APIs and Firebase services
+- Developed reusable UI components
+- Improved performance and debugging workflows
+
+Portfolio
+This is a placeholder resume file for Ashwini Kumar Padhi.
+Replace with a real resume PDF or updated document when available.
