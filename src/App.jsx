@@ -74,7 +74,7 @@ Designed responsive UI with Material Design components for both Android and iOS.
 SUSTAJN is a user-friendly application designed for container tracking. 
 It is a cross-platform application designed for both Android and iOS devices. 
 It designed with clean and responsive UI with Material Design components for Android & iOS. `,
-    tags: ['Flutter', 'Generative AI', 'UI/UX'],
+    tags: ['Flutter','Firebase', 'UI/UX'],
     accent: 'blue',
     status: 'In Progress',
   },
@@ -648,10 +648,10 @@ function App() {
             <div className="contact-copy reveal">
               <SectionHeading eyebrow="Contact" title="Let&apos;s Connect" />
               <div className="contact-links">
-                <a href="mailto:ashwinikumarpadhi2004@gmail.com">Email</a>
-                <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-                <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="tel:+910000000000">Phone</a>
+                <a href="mailto:padhiashwini143@gmail.com">Email - padhiashwini143@gmail.com</a>
+                <a href="https://www.linkedin.com/in/ashwini-kumar-padhi-b8474631b " target="_blank" rel="noreferrer">LinkedIn - Ashwini Kumar Padhi</a>
+                <a href="https://github.com/ashwinikumarpadhi2004-cmd" target="_blank" rel="noreferrer">GitHub - https://github.com/ashwinikumarpadhi2004-cmd</a>
+                <a href="tel:+91 9692245973">Phone - +91 9692245973</a>
               </div>
             </div>
 
