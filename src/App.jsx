@@ -648,7 +648,7 @@ function App() {
             <div className="contact-copy reveal">
               <SectionHeading eyebrow="Contact" title="Let&apos;s Connect" />
               <div className="contact-links">
-                <a href="mailto:ashwini@example.com">Email</a>
+                <a href="mailto:ashwinikumarpadhi2004@gmail.com">Email</a>
                 <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
                 <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
                 <a href="tel:+910000000000">Phone</a>
