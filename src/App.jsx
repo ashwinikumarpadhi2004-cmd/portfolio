@@ -40,7 +40,7 @@ const projectFilters = ['All', 'Flutter', 'Mobile Apps', 'UI/UX', 'AI']
 
 const projects = [
   {
-    title: 'Project Placeholder One',
+    title: 'Project One',
     category: 'Flutter',
     description: `CribCARE (Flutter - Mobile Application)
 CribCare is a user-friendly app enabling facile apartment management system.
@@ -49,10 +49,10 @@ Utilized Provider / GetX for efficient state management and reactive UI updates.
 Designed responsive UI with Material Design components for both Android and iOS.`,
     tags: ['Flutter', 'Dart', 'Firebase'],
     accent: 'cyan',
-    status: 'Placeholder',
+    status: 'Completed',
   },
   {
-    title: 'Project Placeholder Two',
+    title: 'Project Two',
     category: 'Mobile Apps',
     description: `Task Management App(Flutter - Mobile Application)
 Developed a cross-platform mobile application that helps users create, manage, and track 
@@ -65,27 +65,27 @@ services.
 Designed responsive UI with Material Design components for both Android and iOS. `,
     tags: ['Flutter', 'REST API', 'UI/UX'],
     accent: 'purple',
-    status: 'Placeholder',
+    status: 'Completed',
   },
   {
-    title: 'AI UI Concept',
-    category: 'AI',
+    title: 'Project Three',
+    category: 'Mobile App',
     description: `SUSTAJN (Flutter - Mobile Application) 
 SUSTAJN is a user-friendly application designed for container tracking. 
 It is a cross-platform application designed for both Android and iOS devices. 
 It designed with clean and responsive UI with Material Design components for Android & iOS. `,
     tags: ['Flutter', 'Generative AI', 'UI/UX'],
     accent: 'blue',
-    status: 'Placeholder',
+    status: 'In Progress',
   },
-  {
-    title: 'Mobile Design System',
-    category: 'UI/UX',
-    description: 'Placeholder design system project focused on reusable component patterns and polished interface consistency.',
-    tags: ['Flutter', 'Design system', 'Responsive'],
-    accent: 'orange',
-    status: 'Placeholder',
-  },
+  // {
+  //   title: 'Mobile Design System',
+  //   category: 'UI/UX',
+  //   description: 'Placeholder design system project focused on reusable component patterns and polished interface consistency.',
+  //   tags: ['Flutter', 'Design system', 'Responsive'],
+  //   accent: 'orange',
+  //   status: 'Placeholder',
+  // },
 ]
 
 const serviceData = [
