@@ -1,0 +1,72 @@
+:root {
+  font-family: Inter, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #edf5ff;
+  background:
+    radial-gradient(circle at top left, rgba(116, 156, 255, 0.18), transparent 22%),
+    radial-gradient(circle at bottom right, rgba(180, 124, 255, 0.14), transparent 25%),
+    #060b14;
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    linear-gradient(rgba(6, 11, 20, 0.5), rgba(6, 11, 20, 0.9)),
+    radial-gradient(circle at 20% 20%, rgba(127, 170, 255, 0.12), transparent 28%),
+    radial-gradient(circle at 80% 0%, rgba(178, 147, 255, 0.14), transparent 26%),
+    #060b14;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+  pointer-events: none;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a,
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+button {
+  font-family: inherit;
+}
