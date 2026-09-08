@@ -142,14 +142,14 @@ const reasons = [
 const techStack = ['Flutter', 'Dart', 'Firebase', 'Git', 'GitHub', 'REST API', 'Python', 'LangChain', 'Generative AI']
 
 const socialLinks = [
-  { label: 'GitHub', href: 'https://github.com', aria: 'GitHub profile' },
-  { label: 'LinkedIn', href: 'https://linkedin.com', aria: 'LinkedIn profile' },
-  { label: 'Email', href: 'mailto:ashwini@example.com', aria: 'Email address' },
+  { label: 'GitHub', href: 'https://github.com/ashwinikumarpadhi2004-cmd ', aria: 'GitHub profile' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ashwinikumar-padhi-b8474631b ', aria: 'LinkedIn profile' },
+  { label: 'Email', href: 'https://github.com/ashwinikumarpadhi2004-cmd', aria: 'Email address' },
 ]
 
 const stats = [
   { value: '9+', label: 'Months Experience' },
-  { value: '10+', label: 'Projects' },
+  { value: '2+', label: 'Projects' },
   { value: 'Flutter', label: 'Primary Technology' },
   { value: 'Continuous', label: 'Learning' },
 ]
@@ -328,7 +328,7 @@ function App() {
                 </li>
               ))}
             </ul>
-            <Button href="/Ashwini-Kumar-Padhi-Resume.txt" className="nav-cta" download>
+            <Button href="D:\portfolio\public\Ashwini Kumar Padhi.pdf" className="nav-cta" download>
               Download Resume
             </Button>
           </div>
@@ -351,7 +351,7 @@ function App() {
 
               <div className="cta-row">
                 <Button href="#projects">View My Work</Button>
-                <Button href="/Ashwini-Kumar-Padhi-Resume.txt" variant="secondary" download>
+                <Button href="D:\portfolio\public\Ashwini Kumar Padhi.pdf" variant="secondary" download>
                   Download Resume
                 </Button>
                 <Button href="#contact" variant="ghost">Let&apos;s Connect</Button>
@@ -363,7 +363,7 @@ function App() {
                   <span>Months</span>
                 </div>
                 <div>
-                  <strong>10+</strong>
+                  <strong>2+</strong>
                   <span>Projects</span>
                 </div>
                 <div>
@@ -609,10 +609,10 @@ function App() {
                 <p>Interested in working together or discussing a project?</p>
 
                 <div className="cta-row">
-                  <Button href="/Ashwini-Kumar-Padhi-Resume.txt" variant="primary" download>
+                  <Button href="D:\portfolio\public\Ashwini Kumar Padhi.pdf" variant="primary" download>
                     Download Resume
                   </Button>
-                  <Button href="/Ashwini-Kumar-Padhi-Resume.txt" variant="secondary" download>
+                  <Button href="D:\portfolio\public\Ashwini Kumar Padhi.pdf" variant="secondary" download>
                     View Resume
                   </Button>
                 </div>
