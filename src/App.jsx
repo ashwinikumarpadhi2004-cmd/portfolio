@@ -398,17 +398,63 @@ function App() {
               </div>
 
               <div className="floating-card phone-card">
-                <div className="phone-screen">
-                  <div className="screen-top"></div>
-                  <div className="screen-chart"></div>
-                  <div className="screen-bars">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                </div>
-              </div>
+  <div className="phone-screen firebase-card">
+
+    <div className="firebase-header">
+  <div className="firebase-logo">
+    <img
+      src={`${import.meta.env.BASE_URL}firebase.png`}
+      alt="Firebase"
+    />
+  </div>
+
+  <div>
+    <small>BACKEND SERVICE</small>
+    <strong>Firebase</strong>
+  </div>
+
+  <span className="firebase-status">●</span>
+</div>
+
+    <div className="firebase-title">
+      <span>Firebase Integration</span>
+      <strong>76%</strong>
+    </div>
+
+    <div className="firebase-progress">
+      <span></span>
+    </div>
+
+    <div className="firebase-features">
+      <div>
+        <span>✓</span>
+        <p>Authentication</p>
+      </div>
+
+      <div>
+        <span>✓</span>
+        <p>Cloud Firestore</p>
+      </div>
+
+      <div>
+        <span>✓</span>
+        <p>Real-time Database</p>
+      </div>
+
+      <div>
+        <span>✓</span>
+        <p>Firebase Services</p>
+      </div>
+    </div>
+
+    <div className="firebase-footer">
+      <span>Flutter</span>
+      <span>Dart</span>
+      <span>Firebase</span>
+    </div>
+
+  </div>
+</div>
 
               <div className="floating-chip chip-one">Flutter</div>
               <div className="floating-chip chip-two">Dart</div>
@@ -614,7 +660,7 @@ function App() {
 
                 <div className="cta-row">
                   <Button                  
-  href={`${import.meta.env.BASE_URL}Ashwini%20Kumar%20Padhi%20Resume.pdf`}
+  href={`${import.meta.env.BASE_URL}Ashwini%20Kumar%20Padhi%20Resume.pdf.pdf`}
   download="Ashwini-Kumar-Padhi-Resume.pdf"
   className="button primary"
 >
