@@ -613,17 +613,19 @@ function App() {
                 <p>Interested in working together or discussing a project?</p>
 
                 <div className="cta-row">
-                  <Button
+                  <Button                  
   href={`${import.meta.env.BASE_URL}resume.pdf`}
-  variant="primary"
-  download
+  download="Ashwini-Kumar-Padhi-Resume.pdf"
+  className="button primary"
 >
   Download Resume
 </Button>
 
 <Button
-  href={`${import.meta.env.BASE_URL}resume.pdf`}
-  variant="secondary"
+   href={`${import.meta.env.BASE_URL}resume.pdf`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="button secondary"
 >
   View Resume
 </Button>
