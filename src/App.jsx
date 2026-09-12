@@ -614,7 +614,7 @@ function App() {
 
                 <div className="cta-row">
                   <Button                  
-  href={`${import.meta.env.BASE_URL}Ashwini Kumar Padhi Resume.pdf`}
+  href={`${import.meta.env.BASE_URL}Ashwini%20Kumar%20Padhi%20Resume.pdf`}
   download="Ashwini-Kumar-Padhi-Resume.pdf"
   className="button primary"
 >
@@ -622,7 +622,7 @@ function App() {
 </Button>
 
 <Button
-   href={`${import.meta.env.BASE_URL}Ashwini Kumar Padhi Resume.pdf`}
+   href={`${import.meta.env.BASE_URL}Ashwini%20Kumar%20Padhi%20Resume.pdf`}
   target="_blank"
   rel="noopener noreferrer"
   className="button secondary"
