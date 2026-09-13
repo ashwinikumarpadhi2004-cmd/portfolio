@@ -447,11 +447,11 @@ function App() {
       </div>
     </div>
 
-    <div className="firebase-footer">
+    {/* <div className="firebase-footer">
       <span>Flutter</span>
       <span>Dart</span>
       <span>Firebase</span>
-    </div>
+    </div> */}
 
   </div>
 </div>
