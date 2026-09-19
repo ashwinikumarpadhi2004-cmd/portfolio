@@ -471,7 +471,8 @@ function App() {
             <SectionHeading
               eyebrow="About Me"
               title="About Me"
-              description="I create modern, responsive and user-friendly mobile applications with a focus on clean design and maintainable code."
+              description="I'm Ashwini Kumar Padhi, a Flutter Developer with 8 months of experience in building cross-platform mobile applications using Flutter and Dart. I enjoy creating clean, responsive UI designs and developing practical solutions using Firebase, REST APIs, and state management. Passionate about continuous learning and innovation, I'm exploring Generative AI and LangChain while striving to build impactful mobile experiences.
+"
             />
 
             <div className="about-grid">
