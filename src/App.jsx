@@ -471,19 +471,18 @@ function App() {
             <SectionHeading
               eyebrow="About Me"
               title="About Me"
-              description="I'm Ashwini Kumar Padhi, a Flutter Developer with 8 months of experience in building cross-platform mobile applications using Flutter and Dart. I enjoy creating clean, responsive UI designs and developing practical solutions using Firebase, REST APIs, and state management. Passionate about continuous learning and innovation, I'm exploring Generative AI and LangChain while striving to build impactful mobile experiences.
+              description="Hi, I'm Ashwini Kumar Padhi, a passionate Flutter Developer with 8 months of experience in building beautiful, responsive, and user-friendly mobile applications. I specialize in developing cross-platform applications for Android and iOS using Flutter and Dart.
 "
             />
 
             <div className="about-grid">
               <div className="about-copy reveal">
                 <p>
-                  I&apos;m Ashwini Kumar Padhi, a Flutter Developer with 9 months of experience focused on building modern,
-                  responsive and user-friendly mobile applications.
+                  I&apos;m I have hands-on experience working with Firebase, REST APIs, state management, and creating intuitive user interfaces. Through projects like CribCare and SUSTAJN, I have gained practical experience in developing real-world mobile applications and understanding the complete app development process.
+I enjoy solving problems, learning new technologies, and turning ideas into functional digital experiences. I am currently exploring Generative AI and LangChain to expand my technical skills and build smarter applications.
                 </p>
                 <p>
-                  I am passionate about mobile app development, clean UI, good UX, writing maintainable code, learning new
-                  technologies, and building real-world applications that make a difference.
+                  My goal is to continue growing as a developer while creating reliable, scalable, and impactful mobile applications that deliver great user experiences.
                 </p>
               </div>
 
