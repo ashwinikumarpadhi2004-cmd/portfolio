@@ -148,7 +148,7 @@ const socialLinks = [
 ]
 
 const stats = [
-  { value: '9+', label: 'Months Experience' },
+  { value: '8+', label: 'Months Experience' },
   { value: '2+', label: 'Projects' },
   { value: 'Flutter', label: 'Primary Technology' },
   { value: 'Continuous', label: 'Learning' },
@@ -363,7 +363,7 @@ function App() {
 
               <div className="mini-stats">
                 <div>
-                  <strong>9+</strong>
+                  <strong>8+</strong>
                   <span>Months</span>
                 </div>
                 <div>
