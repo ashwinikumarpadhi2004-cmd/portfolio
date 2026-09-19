@@ -347,7 +347,7 @@ function App() {
               <p className="hero-subtitle">
                 Building beautiful, scalable and user-friendly mobile experiences with Flutter.
               </p>
-              <div className="experience-badge">9 Months of Professional Experience</div>
+              <div className="experience-badge">8 Months of Professional Experience</div>
 
               <div className="cta-row">
                 <Button href="#projects">View My Work</Button>
