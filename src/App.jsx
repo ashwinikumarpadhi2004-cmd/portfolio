@@ -29,7 +29,7 @@ const skillData = [
 const experienceItems = [
   {
     title: 'Flutter Developer',
-    duration: '9 Months Experience',
+    duration: '8 Months Experience',
     description:
       'Focused on Flutter application development, responsive UI building, API integration, state management, debugging, and reusable component design.',
     tags: ['Flutter app development', 'Responsive UI', 'API integration', 'State management', 'Debugging', 'Git/GitHub'],
