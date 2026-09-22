@@ -339,10 +339,32 @@ function App() {
         <section id="home" className="section hero-section">
           <div className="container hero-grid">
             <div className="hero-copy reveal">
+              
+<div className="profile-section">
+  <img
+    src={`${import.meta.env.BASE_URL}profile.jpg`}
+    alt="Ashwini Kumar Padhi"
+    className="profile-picture"
+  />
+
+  <h2 className="profile-name">
+    Ashwini Kumar Padhi
+  </h2>
+
+  <p className="profile-role">
+    Flutter Developer
+  </p>
+</div>
               <span className="eyebrow">Flutter Developer • Mobile Experiences</span>
               <h1>
-                Hi, I&apos;m Ashwini Kumar Padhi
-                <span className="gradient-text">Flutter Developer</span>
+                
+<h1>
+  Hi, I'm
+  <span className="gradient-text">
+    Flutter Developer
+  </span>
+</h1>
+                {/* <span className="gradient-text">Flutter Developer</span> */}
               </h1>
               <p className="hero-subtitle">
                 Building beautiful, scalable and user-friendly mobile experiences with Flutter.
