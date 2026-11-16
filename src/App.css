@@ -360,17 +360,49 @@
 
 .hero-copy h1 {
   margin: 18px 0 20px;
-  font-size: clamp(3rem, 5vw, 5.1rem);
+  font-family: 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  font-size: clamp(2.6rem, 4.2vw, 4.4rem);
   line-height: 0.98;
-  letter-spacing: -0.08em;
+  letter-spacing: -0.04em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.28em;
+  max-width: 100%;
+}
+
+.name-highlight {
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(135deg, #8dd6ff 0%, #c7b5ff 50%, #f7c7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
 }
 
 .gradient-text {
-  display: block;
+  display: inline-block;
+  white-space: nowrap;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  font-style: italic;
   background: linear-gradient(135deg, #dfeaff 0%, #97d4ff 18%, #cdb5ff 64%, #fff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+@media (max-width: 640px) {
+  .hero-copy h1 {
+    font-size: 2.2rem;
+    line-height: 1.08;
+    gap: 0.2em;
+  }
+
+  .name-highlight,
+  .gradient-text {
+    white-space: normal;
+  }
 }
 
 .hero-subtitle {
@@ -563,6 +595,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 0.45rem;
   border-radius: 999px;
   border: 1px solid rgba(163, 201, 255, 0.24);
   background: rgba(9, 16, 31, 0.7);
@@ -572,6 +605,23 @@
   font-weight: 700;
   padding: 0.65rem 1rem;
 }
+
+.chip-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+.chip-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.flutter-chip { color: #7dd3ff; }
+.dart-chip { color: #7cc9ff; }
+.firebase-chip { color: #ffb36b; }
 
 .chip-one { top: 100px; right: 20px; }
 .chip-two { left: 80px; bottom: 170px; }

@@ -357,14 +357,10 @@ function App() {
 </div>
               <span className="eyebrow">Flutter Developer • Mobile Experiences</span>
               <h1>
-                
-<h1>
-  Hi, I'm Ashwini Kumar Padhi,
-  <span className="gradient-text">
-    Flutter Developer
-  </span>
-</h1>
-                {/* <span className="gradient-text">Flutter Developer</span> */}
+                Hi, I&apos;m <span className="name-highlight">Ashwini Kumar Padhi</span>
+                <span className="gradient-text">
+                  Flutter Developer
+                </span>
               </h1>
               <p className="hero-subtitle">
                 Building beautiful, scalable and user-friendly mobile experiences with Flutter.
@@ -478,9 +474,30 @@ function App() {
   </div>
 </div>
 
-              <div className="floating-chip chip-one">Flutter</div>
-              <div className="floating-chip chip-two">Dart</div>
-              <div className="floating-chip chip-three">Firebase</div>
+              <div className="floating-chip chip-one">
+                <span className="chip-icon flutter-chip" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M13.5 2.5L4 12l3.4 3.4L20.1 2.5h-6.6zm-1.1 9.6l-4.8 4.8L13.5 21.5h6.6l-7.1-9.4z" fill="currentColor"/>
+                  </svg>
+                </span>
+                Flutter
+              </div>
+              <div className="floating-chip chip-two">
+                <span className="chip-icon dart-chip" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M6 4.5h7.2l4.8 5.2L13.1 15l-3.8-3.8L6 4.5zm7.2 0L18 10.2v9.3c0 .8-.7 1.5-1.5 1.5H6.2l3.6-3.7 3.4-3.4 4.8-4.9-4.8-4.8z" fill="currentColor"/>
+                  </svg>
+                </span>
+                Dart
+              </div>
+              <div className="floating-chip chip-three">
+                <span className="chip-icon firebase-chip" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M12.1 2.9L4.5 7.1l1.8 9.4 5.8-7.3 3.8 5.7 2.9-1.7-4.1-11.3-2.6.1zm-.1 5.4l-4.2 5.1 3.3 4.1 5.4-9.2-4.5 0zm4.7 9.2h-8.8l4.4-5.2 4.4 5.2z" fill="currentColor"/>
+                  </svg>
+                </span>
+                Firebase
+              </div>
               <div className="orb orb-one"></div>
               <div className="orb orb-two"></div>
               <div className="orb orb-three"></div>
